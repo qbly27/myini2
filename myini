@@ -59,7 +59,8 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 ;策略组定义
 custom_proxy_group=🚀 节点选择`select`[]🔯 正常故转`[]✈️ 手动切换`[]DIRECT
-custom_proxy_group=✈️ 手动切换`select`.*^((?!(x0.1)).)*$
+;custom_proxy_group=✈️ 手动切换`select`.*^((?!(x0.1)).)*$
+custom_proxy_group=✈️ 手动切换`select`^((?!(x0.1)).)*$
 ;custom_proxy_group=✈️ 手动切换`select`(^(?!.*(x0.1|IPV6)).*)
 custom_proxy_group=🌿 SCI`select`(?=.*(香港|美国))^((?!(x0.1)).)*$`[]✈️ 手动切换`[]DIRECT
 ;custom_proxy_group=📹 YouTube`select`(?=.*(新加坡|美国))^((?!(x0.1|CM|x3)).)*$`[]✈️ 手动切换
